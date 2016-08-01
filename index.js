@@ -1,6 +1,6 @@
 const childProcess = require('child_process');
 
-export default function process(startTime, endTime, filePath, gifPath) {
+module.exports = function process(startTime, endTime, filePath, gifPath) {
   return new Promise((resolve, reject) => {
     childProcess.execFile(
     'ffmpeg',
