@@ -1,8 +1,13 @@
+Your 📽 turn to gif!
+
+
 # Installing
 
 ```
 npm i gifmaker --save
 ```
+
+
 [![Code Climate](https://codeclimate.com/github/ccali14/Gifmaker/badges/gpa.svg)](https://codeclimate.com/github/ccali14/Gifmaker)
 
 # Using
