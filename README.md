@@ -10,7 +10,7 @@ npm i gifmaker --save
 ```
 var gifmaker = require('gifmaker');
 
-gifmaker.process(0, 5, 'targetVideo.mp4', 'output.gif').then((output) => {
+gifmaker(0, 5, 'targetVideo.mp4', 'output.gif').then(function(output) {
   console.log('Output path: ', output);
 });
 ```
