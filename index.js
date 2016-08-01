@@ -20,4 +20,4 @@ module.exports = function process(startTime, endTime, filePath, gifPath) {
       }
     );
   });
-}
+};
