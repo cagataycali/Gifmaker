@@ -5,11 +5,10 @@ module.exports = function process(startTime, endTime, filePath, gifPath) {
     childProcess.execFile(
     'ffmpeg',
       [
-        '-t', (endTime - startTime), // During time
-        '-ss', startTime, // start time
+        '-t', (endTime - startTime),
+        '-ss', startTime,
         '-i', filePath,
         gifPath,
-        // "-ps" , 200.000.000. // File size limit.
       ],
       (error/* , stdout, stderr */) => {
         if (error) {
