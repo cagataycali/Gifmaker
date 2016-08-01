@@ -1,7 +1,7 @@
 # Installing
 
 ```
-npm i ... --save
+npm i gifmaker --save
 ```
 
 
